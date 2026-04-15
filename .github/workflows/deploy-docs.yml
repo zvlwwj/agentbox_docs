@@ -38,6 +38,19 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
+      - name: Prepare Pages base and custom domain
+        run: |
+          if [ -n "${{ vars.PAGES_CUSTOM_DOMAIN }}" ]; then
+            echo "VITEPRESS_BASE=/" >> "$GITHUB_ENV"
+            mkdir -p public
+            printf '%s\n' "${{ vars.PAGES_CUSTOM_DOMAIN }}" > public/CNAME
+            echo "Using custom domain: ${{ vars.PAGES_CUSTOM_DOMAIN }}"
+          else
+            echo "VITEPRESS_BASE=/${{ github.event.repository.name }}/" >> "$GITHUB_ENV"
+            rm -f public/CNAME
+            echo "Using repository base: /${{ github.event.repository.name }}/"
+          fi
+
       - name: Install dependencies
         run: npm ci
 
