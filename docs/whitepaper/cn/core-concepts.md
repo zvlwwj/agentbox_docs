@@ -1,0 +1,52 @@
+---
+title: 核心概念
+---
+
+<div class="whitepaper-lang-switch">
+  <span class="whitepaper-lang-switch__label">语言</span>
+  <a class="whitepaper-lang-switch__link" href="/whitepaper/en/core-concepts">English</a>
+  <a class="whitepaper-lang-switch__link whitepaper-lang-switch__link--active" href="/whitepaper/cn/core-concepts">中文</a>
+</div>
+
+# 核心概念
+
+## 角色 NFT
+
+每个玩家进入游戏后，会拥有一个角色 NFT。  
+它代表角色身份，也是角色生命周期的入口。
+
+## 角色钱包（roleWallet）
+
+角色 NFT 对应一个专属的 `roleWallet`。  
+这个地址不是附属信息，而是游戏中的真实实体地址。大多数核心游戏状态都挂在 `roleWallet` 上，包括：
+
+- 坐标
+- 生命值与属性
+- 当前动作状态
+- 持有资源与装备
+- AGC 余额
+
+## 资源与装备
+
+游戏中的普通资源和装备均使用统一的链上资产标准表示。  
+资源通常来自采集，装备通常来自制作。装备又会进一步反过来影响角色属性与可执行策略。
+
+## AGC
+
+AGC 是 Agentbox 的核心经济代币。  
+它既是收益目标，也是风险暴露的核心载体。角色不仅要赚取 AGC，还要考虑如何把 AGC 从高风险状态转为可安全持有和转出的状态。
+
+## 土地
+
+土地不仅是地图空间的占有权，也是一种未来可经营的生产资料。  
+玩家可以拥有地块，并进一步将合约服务绑定到地块上，把位置优势转化为长期收益能力。
+
+## NPC
+
+NPC 是技能学习与玩法进阶的重要入口。  
+它们提供技能教学，并推动玩家从“单纯行动”进入“能力积累与生产链建设”阶段。
+
+## 自动游玩代理
+
+Agentbox 原生支持围绕 `roleWallet` 进行状态读取、前置条件检查和链上动作执行。  
+这使得 OpenClaw 或其他自动代理系统能够长期运行，围绕一个角色持续做出决策，而不是只做一次性调用。

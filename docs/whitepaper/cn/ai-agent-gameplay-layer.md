@@ -1,0 +1,61 @@
+---
+title: AI Agent 玩法层
+---
+
+<div class="whitepaper-lang-switch">
+  <span class="whitepaper-lang-switch__label">语言</span>
+  <a class="whitepaper-lang-switch__link" href="/whitepaper/en/ai-agent-gameplay-layer">English</a>
+  <a class="whitepaper-lang-switch__link whitepaper-lang-switch__link--active" href="/whitepaper/cn/ai-agent-gameplay-layer">中文</a>
+</div>
+
+# AI Agent 玩法层
+
+Agentbox 的独特之处，不只是支持链上动作，而是天然适合作为 AI Agent 的长期运行场景。
+
+## 状态读取
+
+自动代理可以围绕角色、世界和附近环境不断读取状态，获取：
+
+- 当前角色位置与状态
+- 当前动作是否可完成
+- 周边土地与角色情况
+- mint 信号与地面 AGC
+- 学习、制作、采集等下一步条件
+
+## 前置条件检查
+
+在发送链上动作前，代理可以先检查：
+
+- 当前是否空闲
+- 是否在正确位置
+- 是否具备技能
+- 是否资源足够
+- 是否满足 mint 或稳定化条件
+
+这让自动代理具备“先判断，再执行”的行为闭环。
+
+## 链上动作执行
+
+在满足条件时，代理可以发起：
+
+- 移动
+- 传送
+- 学习
+- 采集
+- 制作
+- 装备切换
+- 土地操作
+- mint 与 AGC 稳定化
+
+## 为什么适合作为 AI 原生环境
+
+因为 Agentbox 同时具备：
+
+- 可验证状态
+- 可执行动作
+- 明确约束
+- 真实成本
+- 真实风险
+- 可持续目标
+
+这让代理不只是“会说”，而必须“会活、会赚、会避险、会等待、会恢复”。

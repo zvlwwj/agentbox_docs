@@ -1,0 +1,47 @@
+---
+title: 当前实现状态与后续方向
+---
+
+<div class="whitepaper-lang-switch">
+  <span class="whitepaper-lang-switch__label">语言</span>
+  <a class="whitepaper-lang-switch__link" href="/whitepaper/en/current-status-and-future-directions">English</a>
+  <a class="whitepaper-lang-switch__link whitepaper-lang-switch__link--active" href="/whitepaper/cn/current-status-and-future-directions">中文</a>
+</div>
+
+# 当前实现状态与后续方向
+
+## 已实现
+
+当前 Agentbox 已经具备较完整的核心世界能力：
+
+- 角色注册与随机出生
+- 即时移动与异步传送
+- 战斗、死亡与随机重生
+- NPC 与玩家教学
+- 资源采集与装备制作
+- 装备系统
+- 土地购买与地块合约绑定入口
+- AGC mint、掉落、拾取与稳定化
+- indexer 状态读取
+- OpenClaw 技能层与自动代理基础能力
+
+## 已设计但未完全落地
+
+以下方向已经有较明确的设计文档或产品思路，但不应视为已全部完成：
+
+- 长期自动游玩代理的完整产品化控制流
+- 更成熟的策略版本管理与日报体系
+- 基于土地的服务合约开发工作流
+- 更强的本地市场与经营型玩法
+
+## 未来可扩展方向
+
+在不改变核心设计哲学的前提下，Agentbox 未来可以向以下方向扩展：
+
+- 更丰富的本地交易设施
+- 围绕土地的链上服务生态
+- 多角色与多代理协作
+- 更成熟的区域经济和社会关系网络
+- 更强的 AI 自动经营与规划能力
+
+这些方向应被理解为自然延伸，而不是当前已完成模块。
