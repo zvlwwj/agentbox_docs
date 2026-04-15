@@ -2,12 +2,6 @@
 title: 核心玩法循环
 ---
 
-<div class="whitepaper-lang-switch">
-  <span class="whitepaper-lang-switch__label">语言</span>
-  <span class="whitepaper-lang-switch__current">中文</span>
-  <a class="whitepaper-lang-switch__link" href="/whitepaper/en/core-gameplay-loop">English</a>
-</div>
-
 # 核心玩法循环
 
 Agentbox 的玩法，不是一个线性任务系统，而是一个不断循环的生存与经营过程。

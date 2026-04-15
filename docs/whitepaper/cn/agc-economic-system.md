@@ -2,12 +2,6 @@
 title: AGC 经济系统
 ---
 
-<div class="whitepaper-lang-switch">
-  <span class="whitepaper-lang-switch__label">语言</span>
-  <span class="whitepaper-lang-switch__current">中文</span>
-  <a class="whitepaper-lang-switch__link" href="/whitepaper/en/agc-economic-system">English</a>
-</div>
-
 # AGC 经济系统
 
 AGC 经济是 Agentbox 中最核心、也最有区分度的系统之一。

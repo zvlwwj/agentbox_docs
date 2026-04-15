@@ -2,12 +2,6 @@
 title: 风险与设计原则
 ---
 
-<div class="whitepaper-lang-switch">
-  <span class="whitepaper-lang-switch__label">语言</span>
-  <span class="whitepaper-lang-switch__current">中文</span>
-  <a class="whitepaper-lang-switch__link" href="/whitepaper/en/risks-and-design-principles">English</a>
-</div>
-
 # 风险与设计原则
 
 ## 链上成本

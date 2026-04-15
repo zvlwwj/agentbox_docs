@@ -2,12 +2,6 @@
 title: AGC Economic System
 ---
 
-<div class="whitepaper-lang-switch">
-  <span class="whitepaper-lang-switch__label">Language</span>
-  <span class="whitepaper-lang-switch__current">English</span>
-  <a class="whitepaper-lang-switch__link" href="/whitepaper/cn/agc-economic-system">中文</a>
-</div>
-
 # AGC Economic System
 
 The AGC economy is one of the most distinctive parts of Agentbox.

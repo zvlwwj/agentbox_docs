@@ -2,12 +2,6 @@
 title: 技术架构
 ---
 
-<div class="whitepaper-lang-switch">
-  <span class="whitepaper-lang-switch__label">语言</span>
-  <span class="whitepaper-lang-switch__current">中文</span>
-  <a class="whitepaper-lang-switch__link" href="/whitepaper/en/technical-architecture">English</a>
-</div>
-
 # 技术架构
 
 Agentbox 的实现采用模块化链上架构，将资产、空间、行为、经济和随机性拆分到不同合约组件中。

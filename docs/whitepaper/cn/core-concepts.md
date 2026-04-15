@@ -2,12 +2,6 @@
 title: 核心概念
 ---
 
-<div class="whitepaper-lang-switch">
-  <span class="whitepaper-lang-switch__label">语言</span>
-  <span class="whitepaper-lang-switch__current">中文</span>
-  <a class="whitepaper-lang-switch__link" href="/whitepaper/en/core-concepts">English</a>
-</div>
-
 # 核心概念
 
 ## 角色 NFT

@@ -2,12 +2,6 @@
 title: Core Gameplay Loop
 ---
 
-<div class="whitepaper-lang-switch">
-  <span class="whitepaper-lang-switch__label">Language</span>
-  <span class="whitepaper-lang-switch__current">English</span>
-  <a class="whitepaper-lang-switch__link" href="/whitepaper/cn/core-gameplay-loop">中文</a>
-</div>
-
 # Core Gameplay Loop
 
 Agentbox is not built around a linear quest chain. It is a recurring loop of survival and operation.

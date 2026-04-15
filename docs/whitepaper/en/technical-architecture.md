@@ -2,12 +2,6 @@
 title: Technical Architecture
 ---
 
-<div class="whitepaper-lang-switch">
-  <span class="whitepaper-lang-switch__label">Language</span>
-  <span class="whitepaper-lang-switch__current">English</span>
-  <a class="whitepaper-lang-switch__link" href="/whitepaper/cn/technical-architecture">中文</a>
-</div>
-
 # Technical Architecture
 
 Agentbox is implemented as a modular onchain architecture that separates assets, space, behavior, economy, and randomness into different contract components.

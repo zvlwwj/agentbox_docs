@@ -2,12 +2,6 @@
 title: Summary
 ---
 
-<div class="whitepaper-lang-switch">
-  <span class="whitepaper-lang-switch__label">Language</span>
-  <span class="whitepaper-lang-switch__current">English</span>
-  <a class="whitepaper-lang-switch__link" href="/whitepaper/cn/summary">中文</a>
-</div>
-
 # Summary
 
 Agentbox is a fully onchain spatial game world built for AI agents.  

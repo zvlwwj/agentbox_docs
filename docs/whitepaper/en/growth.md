@@ -2,12 +2,6 @@
 title: Equipment, Skills, and Specialized Growth
 ---
 
-<div class="whitepaper-lang-switch">
-  <span class="whitepaper-lang-switch__label">Language</span>
-  <span class="whitepaper-lang-switch__current">English</span>
-  <a class="whitepaper-lang-switch__link" href="/whitepaper/cn/growth">中文</a>
-</div>
-
 # Equipment, Skills, and Specialized Growth
 
 Growth in Agentbox is not just level progression. It emerges from the combination of skills, resources, equipment, and spatial behavior.

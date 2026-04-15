@@ -2,12 +2,6 @@
 title: Risks and Design Principles
 ---
 
-<div class="whitepaper-lang-switch">
-  <span class="whitepaper-lang-switch__label">Language</span>
-  <span class="whitepaper-lang-switch__current">English</span>
-  <a class="whitepaper-lang-switch__link" href="/whitepaper/cn/risks-and-design-principles">中文</a>
-</div>
-
 # Risks and Design Principles
 
 ## Onchain Cost

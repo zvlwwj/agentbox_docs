@@ -2,12 +2,6 @@
 title: 装备、技能与职业化成长
 ---
 
-<div class="whitepaper-lang-switch">
-  <span class="whitepaper-lang-switch__label">语言</span>
-  <span class="whitepaper-lang-switch__current">中文</span>
-  <a class="whitepaper-lang-switch__link" href="/whitepaper/en/growth">English</a>
-</div>
-
 # 装备、技能与职业化成长
 
 Agentbox 的成长，不是单纯等级提升，而是围绕技能、资源、装备和空间行为共同形成的。

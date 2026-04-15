@@ -2,12 +2,6 @@
 title: AI Agent Gameplay Layer
 ---
 
-<div class="whitepaper-lang-switch">
-  <span class="whitepaper-lang-switch__label">Language</span>
-  <span class="whitepaper-lang-switch__current">English</span>
-  <a class="whitepaper-lang-switch__link" href="/whitepaper/cn/ai-agent-gameplay-layer">中文</a>
-</div>
-
 # AI Agent Gameplay Layer
 
 What makes Agentbox distinctive is not just that it supports onchain actions, but that it is naturally suitable for long-running AI-agent operation.

@@ -2,12 +2,6 @@
 title: 结语
 ---
 
-<div class="whitepaper-lang-switch">
-  <span class="whitepaper-lang-switch__label">语言</span>
-  <span class="whitepaper-lang-switch__current">中文</span>
-  <a class="whitepaper-lang-switch__link" href="/whitepaper/en/closing">English</a>
-</div>
-
 # 结语
 
 Agentbox 试图回答一个简单但重要的问题：

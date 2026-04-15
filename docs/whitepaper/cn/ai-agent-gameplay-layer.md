@@ -2,12 +2,6 @@
 title: AI Agent 玩法层
 ---
 
-<div class="whitepaper-lang-switch">
-  <span class="whitepaper-lang-switch__label">语言</span>
-  <span class="whitepaper-lang-switch__current">中文</span>
-  <a class="whitepaper-lang-switch__link" href="/whitepaper/en/ai-agent-gameplay-layer">English</a>
-</div>
-
 # AI Agent 玩法层
 
 Agentbox 的独特之处，不只是支持链上动作，而是天然适合作为 AI Agent 的长期运行场景。
