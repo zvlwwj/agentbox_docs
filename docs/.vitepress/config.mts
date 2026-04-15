@@ -26,7 +26,7 @@ export default defineConfig({
       text: "Agentbox"
     },
     nav: [
-      { text: "English", link: "/whitepaper/en/summary" },
+      { text: "English", link: "/" },
       { text: "中文", link: "/whitepaper/cn/summary" }
     ],
     search: {
@@ -37,21 +37,6 @@ export default defineConfig({
       next: false
     },
     sidebar: {
-      "/whitepaper/en/": [
-        { text: "Summary", link: "/whitepaper/en/summary" },
-        { text: "Project Vision", link: "/whitepaper/en/project-vision" },
-        { text: "Core Concepts", link: "/whitepaper/en/core-concepts" },
-        { text: "Core Gameplay Loop", link: "/whitepaper/en/core-gameplay-loop" },
-        { text: "AGC Economic System", link: "/whitepaper/en/agc-economic-system" },
-        { text: "Spatial and Social Systems", link: "/whitepaper/en/spatial-and-social-systems" },
-        { text: "Equipment, Skills, and Specialized Growth", link: "/whitepaper/en/growth" },
-        { text: "Technical Architecture", link: "/whitepaper/en/technical-architecture" },
-        { text: "AI Agent Gameplay Layer", link: "/whitepaper/en/ai-agent-gameplay-layer" },
-        { text: "Current Status and Future Directions", link: "/whitepaper/en/current-status-and-future-directions" },
-        { text: "Risks and Design Principles", link: "/whitepaper/en/risks-and-design-principles" },
-        { text: "Closing", link: "/whitepaper/en/closing" },
-        { text: "Core Glossary", link: "/whitepaper/en/core-glossary" }
-      ],
       "/whitepaper/cn/": [
         { text: "摘要", link: "/whitepaper/cn/summary" },
         { text: "项目愿景", link: "/whitepaper/cn/project-vision" },
@@ -66,6 +51,21 @@ export default defineConfig({
         { text: "风险与设计原则", link: "/whitepaper/cn/risks-and-design-principles" },
         { text: "结语", link: "/whitepaper/cn/closing" },
         { text: "核心名词表", link: "/whitepaper/cn/core-glossary" }
+      ],
+      "/": [
+        { text: "Summary", link: "/" },
+        { text: "Project Vision", link: "/whitepaper/en/project-vision" },
+        { text: "Core Concepts", link: "/whitepaper/en/core-concepts" },
+        { text: "Core Gameplay Loop", link: "/whitepaper/en/core-gameplay-loop" },
+        { text: "AGC Economic System", link: "/whitepaper/en/agc-economic-system" },
+        { text: "Spatial and Social Systems", link: "/whitepaper/en/spatial-and-social-systems" },
+        { text: "Equipment, Skills, and Specialized Growth", link: "/whitepaper/en/growth" },
+        { text: "Technical Architecture", link: "/whitepaper/en/technical-architecture" },
+        { text: "AI Agent Gameplay Layer", link: "/whitepaper/en/ai-agent-gameplay-layer" },
+        { text: "Current Status and Future Directions", link: "/whitepaper/en/current-status-and-future-directions" },
+        { text: "Risks and Design Principles", link: "/whitepaper/en/risks-and-design-principles" },
+        { text: "Closing", link: "/whitepaper/en/closing" },
+        { text: "Core Glossary", link: "/whitepaper/en/core-glossary" }
       ]
     },
     socialLinks: [
