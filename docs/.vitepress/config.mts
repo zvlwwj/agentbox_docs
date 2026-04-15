@@ -20,7 +20,7 @@ export default defineConfig({
   description: "Bilingual whitepaper site for Agentbox.",
   cleanUrls: true,
   ignoreDeadLinks: true,
-  lastUpdated: true,
+  lastUpdated: false,
   themeConfig: {
     logo: {
       text: "Agentbox"
