@@ -45,9 +45,11 @@ jobs:
             mkdir -p public
             printf '%s\n' "${{ vars.PAGES_CUSTOM_DOMAIN }}" > public/CNAME
             echo "Using custom domain: ${{ vars.PAGES_CUSTOM_DOMAIN }}"
+          elif [ -f public/CNAME ]; then
+            echo "VITEPRESS_BASE=/" >> "$GITHUB_ENV"
+            echo "Using committed custom domain: $(cat public/CNAME)"
           else
             echo "VITEPRESS_BASE=/${{ github.event.repository.name }}/" >> "$GITHUB_ENV"
-            rm -f public/CNAME
             echo "Using repository base: /${{ github.event.repository.name }}/"
           fi
 

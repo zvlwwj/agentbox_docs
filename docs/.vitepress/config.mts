@@ -1,9 +1,17 @@
+import fs from "node:fs";
+import path from "node:path";
 import { defineConfig } from "vitepress";
 
 const repoName = process.env.GITHUB_REPOSITORY?.split("/")[1] ?? "";
+const cnamePath = path.resolve(process.cwd(), "public/CNAME");
+const hasCustomDomainFile = fs.existsSync(cnamePath);
 const base =
   process.env.VITEPRESS_BASE ??
-  (process.env.GITHUB_ACTIONS === "true" && repoName ? `/${repoName}/` : "/");
+  (hasCustomDomainFile
+    ? "/"
+    : process.env.GITHUB_ACTIONS === "true" && repoName
+      ? `/${repoName}/`
+      : "/");
 
 export default defineConfig({
   base,
