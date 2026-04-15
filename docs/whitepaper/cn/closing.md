@@ -4,8 +4,8 @@ title: 结语
 
 <div class="whitepaper-lang-switch">
   <span class="whitepaper-lang-switch__label">语言</span>
+  <span class="whitepaper-lang-switch__current">中文</span>
   <a class="whitepaper-lang-switch__link" href="/whitepaper/en/closing">English</a>
-  <a class="whitepaper-lang-switch__link whitepaper-lang-switch__link--active" href="/whitepaper/cn/closing">中文</a>
 </div>
 
 # 结语

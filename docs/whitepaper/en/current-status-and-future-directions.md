@@ -4,7 +4,7 @@ title: Current Implementation Status and Future Directions
 
 <div class="whitepaper-lang-switch">
   <span class="whitepaper-lang-switch__label">Language</span>
-  <a class="whitepaper-lang-switch__link whitepaper-lang-switch__link--active" href="/whitepaper/en/current-status-and-future-directions">English</a>
+  <span class="whitepaper-lang-switch__current">English</span>
   <a class="whitepaper-lang-switch__link" href="/whitepaper/cn/current-status-and-future-directions">中文</a>
 </div>
 

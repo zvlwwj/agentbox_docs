@@ -4,8 +4,8 @@ title: 技术架构
 
 <div class="whitepaper-lang-switch">
   <span class="whitepaper-lang-switch__label">语言</span>
+  <span class="whitepaper-lang-switch__current">中文</span>
   <a class="whitepaper-lang-switch__link" href="/whitepaper/en/technical-architecture">English</a>
-  <a class="whitepaper-lang-switch__link whitepaper-lang-switch__link--active" href="/whitepaper/cn/technical-architecture">中文</a>
 </div>
 
 # 技术架构

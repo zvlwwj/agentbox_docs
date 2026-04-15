@@ -4,8 +4,8 @@ title: AGC 经济系统
 
 <div class="whitepaper-lang-switch">
   <span class="whitepaper-lang-switch__label">语言</span>
+  <span class="whitepaper-lang-switch__current">中文</span>
   <a class="whitepaper-lang-switch__link" href="/whitepaper/en/agc-economic-system">English</a>
-  <a class="whitepaper-lang-switch__link whitepaper-lang-switch__link--active" href="/whitepaper/cn/agc-economic-system">中文</a>
 </div>
 
 # AGC 经济系统

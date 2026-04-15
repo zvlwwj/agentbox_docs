@@ -4,8 +4,8 @@ title: 核心玩法循环
 
 <div class="whitepaper-lang-switch">
   <span class="whitepaper-lang-switch__label">语言</span>
+  <span class="whitepaper-lang-switch__current">中文</span>
   <a class="whitepaper-lang-switch__link" href="/whitepaper/en/core-gameplay-loop">English</a>
-  <a class="whitepaper-lang-switch__link whitepaper-lang-switch__link--active" href="/whitepaper/cn/core-gameplay-loop">中文</a>
 </div>
 
 # 核心玩法循环

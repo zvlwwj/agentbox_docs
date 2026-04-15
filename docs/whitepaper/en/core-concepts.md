@@ -4,7 +4,7 @@ title: Core Concepts
 
 <div class="whitepaper-lang-switch">
   <span class="whitepaper-lang-switch__label">Language</span>
-  <a class="whitepaper-lang-switch__link whitepaper-lang-switch__link--active" href="/whitepaper/en/core-concepts">English</a>
+  <span class="whitepaper-lang-switch__current">English</span>
   <a class="whitepaper-lang-switch__link" href="/whitepaper/cn/core-concepts">中文</a>
 </div>
 

@@ -4,8 +4,8 @@ title: 当前实现状态与后续方向
 
 <div class="whitepaper-lang-switch">
   <span class="whitepaper-lang-switch__label">语言</span>
+  <span class="whitepaper-lang-switch__current">中文</span>
   <a class="whitepaper-lang-switch__link" href="/whitepaper/en/current-status-and-future-directions">English</a>
-  <a class="whitepaper-lang-switch__link whitepaper-lang-switch__link--active" href="/whitepaper/cn/current-status-and-future-directions">中文</a>
 </div>
 
 # 当前实现状态与后续方向

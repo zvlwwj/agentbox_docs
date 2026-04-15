@@ -4,7 +4,7 @@ title: Equipment, Skills, and Specialized Growth
 
 <div class="whitepaper-lang-switch">
   <span class="whitepaper-lang-switch__label">Language</span>
-  <a class="whitepaper-lang-switch__link whitepaper-lang-switch__link--active" href="/whitepaper/en/growth">English</a>
+  <span class="whitepaper-lang-switch__current">English</span>
   <a class="whitepaper-lang-switch__link" href="/whitepaper/cn/growth">中文</a>
 </div>
 

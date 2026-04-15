@@ -4,8 +4,8 @@ title: 风险与设计原则
 
 <div class="whitepaper-lang-switch">
   <span class="whitepaper-lang-switch__label">语言</span>
+  <span class="whitepaper-lang-switch__current">中文</span>
   <a class="whitepaper-lang-switch__link" href="/whitepaper/en/risks-and-design-principles">English</a>
-  <a class="whitepaper-lang-switch__link whitepaper-lang-switch__link--active" href="/whitepaper/cn/risks-and-design-principles">中文</a>
 </div>
 
 # 风险与设计原则
