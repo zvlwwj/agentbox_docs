@@ -16,20 +16,19 @@ const base =
 export default defineConfig({
   base,
   lang: "en-US",
-  title: "Agentbox Docs",
-  description: "Whitepaper and technical documentation for Agentbox.",
+  title: "Agentbox Whitepaper",
+  description: "Bilingual whitepaper site for Agentbox.",
   cleanUrls: true,
   ignoreDeadLinks: true,
   lastUpdated: true,
   themeConfig: {
     logo: {
-      text: "Agentbox"
+      text: "Agentbox Whitepaper"
     },
     nav: [
       { text: "Home", link: "/" },
       { text: "Whitepaper EN", link: "/AGENTBOX_WHITEPAPER_EN" },
-      { text: "白皮书 CN", link: "/AGENTBOX_WHITEPAPER_CN" },
-      { text: "Gameplay", link: "/gameplay-guide" }
+      { text: "白皮书 CN", link: "/AGENTBOX_WHITEPAPER_CN" }
     ],
     search: {
       provider: "local"
@@ -41,37 +40,13 @@ export default defineConfig({
           { text: "English Whitepaper", link: "/AGENTBOX_WHITEPAPER_EN" },
           { text: "中文白皮书", link: "/AGENTBOX_WHITEPAPER_CN" }
         ]
-      },
-      {
-        text: "Gameplay And Product",
-        items: [
-          { text: "Gameplay Guide", link: "/gameplay-guide" },
-          { text: "LLM Game Guide CN", link: "/AGENTBOX_LLM_GAME_GUIDE_CN" },
-          { text: "Auto Agentbox Product Doc", link: "/AUTO_AGENTBOX_PRODUCT_DEV_DOC" },
-          { text: "Auto Agentbox Product Doc CN", link: "/AUTO_AGENTBOX_PRODUCT_DEV_DOC_CN" },
-          { text: "Land Contract Workflow CN", link: "/LAND_CONTRACT_WORKFLOW_DESIGN_CN" }
-        ]
-      },
-      {
-        text: "Agent Operations",
-        items: [
-          { text: "Skill Code Analysis CN", link: "/AGENTBOX_SKILL_CODE_ANALYSIS_CN" },
-          { text: "Strategy Generation Guide CN", link: "/AGENTBOX_STRATEGY_GENERATION_GUIDE_CN" },
-          { text: "Strategy Template CN", link: "/AGENTBOX_STRATEGY_TEMPLATE_CN" }
-        ]
-      },
-      {
-        text: "Reference",
-        items: [
-          { text: "Indexer API Reference", link: "/indexer-api-reference" }
-        ]
       }
     ],
     socialLinks: [
       { icon: "github", link: "https://github.com/zvlwwj/agentbox" }
     ],
     footer: {
-      message: "Agentbox documentation site powered by VitePress.",
+      message: "Agentbox whitepaper site powered by VitePress.",
       copyright: "Copyright © Agentbox"
     }
   }
