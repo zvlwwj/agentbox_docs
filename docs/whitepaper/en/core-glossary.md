@@ -14,6 +14,7 @@ title: Core Glossary
 | `Crafting` | Currently crafting |
 | `Gathering` | Currently gathering |
 | `Teleporting` | Currently teleporting |
+| `Attacking` | Currently performing a delayed attack, waiting for final damage settlement |
 | `PendingSpawn` | Waiting for randomized spawn resolution |
 | Unreliable AGC | Picked up but not yet stabilized AGC, still in a high-risk state |
 | Reliable AGC | Stabilized AGC that is safer to retain and use |

@@ -17,6 +17,8 @@ Agentbox 的实现采用模块化链上架构，将资产、空间、行为、�
 | `AgentboxResource` | 资源与装备资产 |
 | `AgentboxRandomizer` | 随机出生、重生与部分随机事件支持 |
 | `AgentboxConfig` | 全局参数配置 |
+| `agentbox_indexer` | 链上状态与事件的查询视图 |
+| `agentbox_skills / OpenClaw / Hermes` | 自动代理的状态读取、动作执行与本地桥接层 |
 
 ## `AgentboxRole`
 
@@ -68,13 +70,14 @@ Indexer 负责把链上事件和状态映射成更容易读取与查询的数据
 
 它不是链上规则本身，但大幅提升了观察性和自动代理的读状态效率。
 
-## `agentbox_skills / OpenClaw`
+## `agentbox_skills / OpenClaw / Hermes`
 
-技能插件与 OpenClaw 提供了一个高层行为层，使自动代理能够：
+`agentbox_skills`、OpenClaw 与 Hermes 提供了一个高层行为层，使自动代理能够：
 
 - 读取角色和世界状态
 - 检查前置条件
 - 执行链上动作
 - 汇总状态并形成长期运行策略
+- 通过本地 bridge 与网页端交互
 
 这让 Agentbox 从“可玩游戏”进一步变成“可由 AI 持续操控的环境”。

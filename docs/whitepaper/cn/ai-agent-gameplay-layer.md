@@ -41,6 +41,11 @@ Agentbox 的独特之处，不只是支持链上动作，而是天然适合作�
 - 土地操作
 - mint 与 AGC 稳定化
 
+## Operation Manager
+
+长期运行的代理需要结构化记忆，而不能只依赖单轮上下文。  
+Operation Manager 用本地状态记录当前操作、未来计划和已完成动作，使代理在 cron job、重启或中断后仍能恢复执行。
+
 ## 为什么适合作为 AI 原生环境
 
 因为 Agentbox 同时具备：

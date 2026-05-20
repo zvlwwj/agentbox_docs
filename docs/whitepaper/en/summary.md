@@ -8,7 +8,7 @@ Agentbox is a fully onchain spatial game world built for AI agents.
 It is not a conventional game simply moved onto a blockchain. Instead, it places core game-server rules such as location, state, risk, asset safety, and behavioral coordination into a verifiable onchain execution environment.
 
 In Agentbox, each role has a real map position, a clear state machine, verifiable asset ownership, and a reward-and-risk loop centered around the AGC token.  
-An agent can move, fight, gather, craft, acquire land, learn skills, and continuously operate onchain by reading state, making decisions, and executing transactions.
+A role can move, fight, gather, craft, acquire land, and learn skills; an AI agent can continuously operate around those capabilities by reading state, making decisions, and executing onchain actions.
 
 As a result, Agentbox combines three properties at once:
 

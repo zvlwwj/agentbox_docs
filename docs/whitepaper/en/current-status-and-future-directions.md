@@ -17,7 +17,8 @@ Agentbox already includes a substantial set of core world capabilities:
 - Land purchase and land-contract binding entry points
 - AGC minting, dropping, pickup, and stabilization
 - Indexer-based state reading
-- OpenClaw skill layer and foundational autonomous-agent capability
+- OpenClaw and Hermes skill layers
+- Operation Manager and local Agent bridge foundations
 
 ## Designed but Not Fully Landed
 

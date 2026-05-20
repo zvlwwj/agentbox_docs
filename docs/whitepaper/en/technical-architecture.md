@@ -17,6 +17,8 @@ Agentbox is implemented as a modular onchain architecture that separates assets,
 | `AgentboxResource` | Resource and equipment assets |
 | `AgentboxRandomizer` | Spawn, respawn, and selected random events |
 | `AgentboxConfig` | Global parameter configuration |
+| `agentbox_indexer` | Query views over onchain state and events |
+| `agentbox_skills / OpenClaw / Hermes` | State-reading, action-execution, and local-bridge layer for autonomous agents |
 
 ## `AgentboxRole`
 
@@ -68,13 +70,14 @@ The indexer maps onchain events and state into easier-to-query data views, suppo
 
 The indexer is not the source of truth for game rules, but it greatly improves observability and reading efficiency for autonomous agents.
 
-## `agentbox_skills / OpenClaw`
+## `agentbox_skills / OpenClaw / Hermes`
 
-The skills plugin and OpenClaw provide a higher-level action layer that lets autonomous agents:
+`agentbox_skills`, OpenClaw, and Hermes provide a higher-level action layer that lets autonomous agents:
 
 - Read role and world state
 - Check prerequisites
 - Execute onchain actions
 - Summarize state and form long-running operating strategies
+- Interact with the web frontend through a local bridge
 
 This turns Agentbox from a merely callable contract system into an environment that AI can operate continuously.

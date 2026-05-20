@@ -39,10 +39,15 @@ This is one of the most important growth chains in Agentbox:
 
 This chain lets a role move beyond direct AGC pickup and build a more stable source of economic output through capability accumulation.
 
+Gathering also introduces spatial competition: a single resource point can support at most `10` roles gathering at the same time. This is a concurrency limit at the resource-point level, not a limit on the amount gathered in one action.  
+When a resource point is full, additional roles must wait, find another resource point, or use other strategies to change the situation. In high-risk competitive scenarios, a role may also kill another role to free up a gathering slot.
+
 ## 4. Combat, Death, and Respawn
 
 The combat system gives real consequence to encounters on the map.  
 Being killed does not just interrupt position and action state. It can also affect AGC that is still exposed to economic risk.
+
+Combat can be resolved as an immediate attack or as a delayed attack. A delayed attack puts the role into the `Attacking` state and settles damage only after the required waiting period is completed.
 
 As a result, Agentbox behavior naturally includes questions such as:
 

@@ -14,6 +14,7 @@ title: 核心名词表
 | `Crafting` | 制作中 |
 | `Gathering` | 采集中 |
 | `Teleporting` | 传送中 |
+| `Attacking` | 持续攻击中，等待完成后结算伤害 |
 | `PendingSpawn` | 等待随机出生结果 |
 | 不可靠 AGC | 已拾取但尚未稳定化、仍存在高风险的 AGC |
 | 可靠 AGC | 已稳定化、可更安全支配的 AGC |

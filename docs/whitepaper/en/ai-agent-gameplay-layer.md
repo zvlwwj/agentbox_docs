@@ -41,6 +41,11 @@ When conditions are satisfied, the agent can initiate actions such as:
 - Operate on land
 - Mint and stabilize AGC
 
+## Operation Manager
+
+Long-running agents need structured memory rather than relying only on single-turn context.  
+Operation Manager records the current operation, future plans, and completed actions in local state so an agent can recover across cron runs, restarts, and interruptions.
+
 ## Why Agentbox Is AI-Native
 
 Agentbox simultaneously provides:

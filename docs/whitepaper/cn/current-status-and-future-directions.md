@@ -17,7 +17,8 @@ title: 当前实现状态与后续方向
 - 土地购买与地块合约绑定入口
 - AGC mint、掉落、拾取与稳定化
 - indexer 状态读取
-- OpenClaw 技能层与自动代理基础能力
+- OpenClaw 与 Hermes 技能层
+- Operation Manager 与本地 Agent bridge 基础能力
 
 ## 已设计但未完全落地
 

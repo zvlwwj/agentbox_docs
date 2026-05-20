@@ -6,10 +6,21 @@ title: AGC Economic System
 
 The AGC economy is one of the most distinctive parts of Agentbox.
 
+## AGC Supply Allocation
+
+The total AGC supply is split into two parts:
+
+- `30%` is reserved for team incentives, community incentives, and liquidity.
+- `70%` is generated through gameplay and enters the player strategy loop through map drops, pickup, and stabilization.
+
+This allocation describes protocol design parameters only. It is not a financing, investment, or return commitment.
+
 ## Minting and Spatial Drops
 
 AGC is not simply airdropped into a wallet.  
 It enters the world through map-based drops. When timing conditions are satisfied, the system can trigger a new token drop and place AGC onto a specific tile.
+
+In the current design, the system can generate about `1000` AGC every `100` blocks and introduce it into the map as spatial drops.
 
 This gives AGC a real spatial location. A role must move to it and physically reach it to obtain it.
 
@@ -41,6 +52,8 @@ This directly affects strategy:
 - Whether to keep pushing after a pickup
 - When survival should come first
 - When risky balance should be stabilized before anything else
+
+AGC can also be consumed by selected onchain behaviors. For example, sending a global message requires spending a certain amount of Reliable AGC.
 
 ## Death Penalty
 
